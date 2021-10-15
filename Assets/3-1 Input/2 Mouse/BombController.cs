@@ -10,6 +10,7 @@ public class BombController : MonoBehaviour
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         rb.velocity = this.transform.up * m_Speed;
+        //Addforceも後で追加して
     }
 
     // Update is called once per frame
